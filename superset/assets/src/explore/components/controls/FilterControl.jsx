@@ -40,6 +40,7 @@ export default class FilterControl extends React.Component {
     const datasource = this.props.datasource;
     const col = column || this.props.value[index].col;
     const having = this.props.name === 'having_filters';
+
     if (col && this.props.datasource && this.props.datasource.filter_select && !having) {
       this.setState((prevState) => {
         const newStateFilters = Object.assign([], prevState.filters);

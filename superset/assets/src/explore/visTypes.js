@@ -61,6 +61,7 @@ export const sections = {
       expanded: true,
       controlSetRows: [
         ['metrics'],
+        ['adhoc_filters'],
         ['groupby'],
         ['limit', 'timeseries_limit_metric'],
         ['order_desc', 'contribution'],
